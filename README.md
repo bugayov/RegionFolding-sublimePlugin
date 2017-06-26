@@ -4,6 +4,25 @@ I apologize to the author of this plugin.
 A couple of years ago I Remodel this plug-in for my needs.
 But I do not remember from which source I took the plug-in.
 Therefore, I can not provide a link to the source.
+Regions are those areas of code that are enclosed between markers {{{ & }}}
+
+### Sample
+
+`sample.css`:
+```javascript
+// {{{ region №1
+
+.block1 { display:inline; height:0px; left:-1000px; }
+.block2 { margin: 0px auto; }
+
+// }}}
+
+// {{{ region №2
+
+.content { display:inline; height:0px; left:-1000px; }
+
+// }}}
+```
 
 ### Default Shortcuts
 * Fold all regions with keyboard: _alt + ctrl + 9_
@@ -16,7 +35,6 @@ Therefore, I can not provide a link to the source.
 insert insert this code into `Default (Linux).sublime-keymap` or `Default (Windows).sublime-keymap`:
 ```javascript
 [
- { "keys": ["f5"], "command": "build" },
  { "keys": ["alt+ctrl+0", "alt+ctrl+9"], "command": "region_fold_all" },
  { "keys": ["alt+ctrl+9", "alt+ctrl+0"], "command": "region_unfold_all"},
  { "keys": ["alt+ctrl+2", "alt+ctrl+1"], "command": "region_fold_current"},
