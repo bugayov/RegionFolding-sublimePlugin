@@ -1,0 +1,6 @@
+[
+    { "keys": ["alt+super+0", "alt+super+9"], "command": "region_fold_all" },
+    { "keys": ["alt+super+9", "alt+super+0"], "command": "region_unfold_all"},
+    { "keys": ["alt+super+2", "alt+super+1"], "command": "region_fold_current"},
+    { "keys": ["alt+super+1", "alt+super+2"], "command": "region_unfold_current"},
+]
