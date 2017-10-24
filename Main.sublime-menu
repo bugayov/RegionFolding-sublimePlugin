@@ -1,0 +1,32 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "end_region_folding",
+                "caption": "RegionFolding",
+                "children":
+                [
+                    {
+                        "caption": "region_fold_current",
+                        "command": "region_fold_current"
+                    }
+                    , {
+                        "caption": "region_unfold_current",
+                        "command": "region_unfold_current"
+                    }
+                    , {
+                        "caption": "region_fold_all",
+                        "command": "region_fold_all"
+                    }
+                    , {
+                        "caption": "region_unfold_all",
+                        "command": "region_unfold_all"
+                    }
+                ]
+
+            }
+        ]
+    }
+]

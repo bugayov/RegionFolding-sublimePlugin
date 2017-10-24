@@ -1,9 +1,6 @@
 # RegionFolding-sublimePlugin
 
-I apologize to the author of this plugin.
-A couple of years ago I Remodel this plug-in for my needs.
-But I do not remember from which source I took the plug-in.
-Therefore, I can not provide a link to the source.
+Я взял код с какого-то другого плагина
 Regions are those areas of code that are enclosed between markers {{{ & }}}
 
 ### Sample
